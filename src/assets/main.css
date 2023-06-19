@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+.main{
+background: rgb(5,1,67);
+background: linear-gradient(90deg, rgba(5,1,67,1) 0%, rgba(7,7,93,1) 50%, rgba(7,7,75,1) 100%);
+display: grid;
+grid-template-columns: 1fr 1fr;
+padding: 60px 80px;
+}
+.rightside{
+    overflow: auto;
+}
+.leftside{
+    position: fixed;
+    width: 50%;
+}
+
+
+
+
+
+
